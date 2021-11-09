@@ -2,7 +2,15 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_placeholders.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/components/_hero.scss",
+        "../sass/components/_about.scss",
+        "../sass/components/_expirience.scss",
+        "../sass/components/_skills.scss",
+        "../sass/components/_hero.scss"
     ],
     "names": [],
     "file": "main.min.css"
