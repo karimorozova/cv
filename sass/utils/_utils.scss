@@ -1,0 +1,26 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container {
+    width: 1260px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
