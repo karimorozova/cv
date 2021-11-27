@@ -9,34 +9,15 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.container {
-  width: 1260px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .header, .about {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.container {
-  width: 1260px;
-  padding-left: 30px;
-  padding-right: 30px;
+.container, .about-wrap {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -47,7 +28,7 @@ img {
   height: auto;
 }
 
-.social-list, .address-list, .skills-list {
+.social-list, .address-list, .skills-list, .education-list, .experience-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -98,7 +79,7 @@ img {
 }
 
 .header {
-  background-color: #757575;
+  background-color: #003c5f;
 }
 
 .header-wrap {
@@ -286,5 +267,96 @@ img {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+  padding: 60px 40px;
+}
+
+.experience-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 500;
+  color: #AFB1B8;
+  margin-bottom: 30px;
+}
+
+.experience-title::before {
+  content: "";
+  margin-right: 10px;
+  width: 20px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #AFB1B8;
+}
+
+.profile-description {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.17;
+  color: #2F303A;
+  margin-bottom: 50px;
+}
+
+.education-list {
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.education-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.education-subtitle {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.education-wrap, .experience-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 20px;
+}
+
+.education-period {
+  margin-right: 10px;
+}
+
+.education-period, .education-description {
+  font-size: 16px;
+  line-height: 1.17;
+  color: #757575;
+}
+
+.goit {
+  display: inline-block;
+  margin-right: 8px;
+  color: #ff6b08;
+}
+
+.experience-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.experience-wrap {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.experience-company {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.experience-description {
+  padding-left: 20px;
 }
 /*# sourceMappingURL=main.css.map */

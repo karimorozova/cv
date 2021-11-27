@@ -5,6 +5,10 @@
     
 }
 
+.about-wrap {
+    @extend %container;
+}
+
 .skills-title {
     position: relative;
     padding-bottom: 12px;

@@ -1,3 +1,93 @@
 .experience {
     flex-grow: 1;
+    padding: 60px 40px;
+}
+.experience-title {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: 500;
+    color: $primary-textcolor;;
+    margin-bottom: 30px;
+
+    &::before {
+        content: "";
+        margin-right: 10px;
+        width: 20px;
+        height: 4px;
+        border-radius: 2px;
+        background-color: $primary-textcolor;;
+    }
+
+}
+
+.profile-description {
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1.17;
+    color: $secondary-text-color;
+    margin-bottom: 50px;
+    
+}
+
+.education-list {
+    @extend %list;
+    padding-left: 20px;
+margin-bottom: 50px;
+}
+
+.education-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.education-subtitle {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.education-wrap, .experience-wrap {
+    display: flex;
+    padding-left: 20px;
+}
+
+
+.education-period {
+    margin-right: 10px;
+}
+
+.education-period, .education-description {
+    font-size: 16px;
+    line-height: 1.17;
+    color: $primary-bg-color;
+}
+
+.goit {
+    display: inline-block;
+    margin-right: 8px;
+    color: $accent-color;
+}
+
+
+.experience-list {
+    @extend %list;
+}
+
+.experience-item:not(:last-child) {
+    margin-bottom: 50px;
+
+}
+.experience-wrap {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.experience-company {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.experience-description {
+    padding-left: 20px;
 }

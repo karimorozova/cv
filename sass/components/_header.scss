@@ -1,6 +1,7 @@
 .header {
     @extend %section;
-    background-color: $primary-bg-color;
+    // background-color: $primary-bg-color;
+    background-color: #003c5f;
 }
 .container {
     @extend %container;
