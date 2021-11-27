@@ -1,14 +1,12 @@
 .header {
     @extend %section;
-    background-color: #757575;
+    background-color: $primary-bg-color;
 }
 .container {
     @extend %container;
 }
 .header-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex(flex);
 
 }
 .cv-img {
@@ -31,9 +29,8 @@
     font-size: 24px;
     line-height: 1.17;
     font-weight: 500;
-    color: #2F303A;
+    color: $secondary-text-color;
     margin-bottom: 30px;
-    // text-align: center;
 }
 
 .address {
@@ -54,27 +51,28 @@
 }
 .address-link {
     @extend %link;
-    color: rgba(255, 255, 255, 0.6);
+    @include transition(color);
+    color: $address-color;
     font-size: 18px;
     line-height: 1.17;
-    transition: color 250ms var(--timing-function);
+
     &:hover, &:focus {
-        color: #fff;
+        color: $primary-white-color;
     }
 }
 
 .contacts-icon {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    fill: rgba(255, 255, 255, 0.6);
+    @include centeredFlex(inline-flex);
+    @include transition(fill);
+
+    fill: $address-color;
     width: 12px;
     height: 16px;
     margin-right: 8px;
-    transition: fill 250ms var(--timing-function);
+
     .address-link:hover &,
     .address-link:focus & {
-        fill: #fff;
+        fill: $primary-white-color;
     }
 }
 .email-icon {
@@ -86,34 +84,3 @@
     height: 12px;
 }
 
-.social-list {
-    @extend %list;
-    display: flex;
-    align-items: center;
-}
-
-.social-item:not(:last-child) {
-    margin-right: 10px;
-}
-
-
-.social-link {
-    @extend %link;
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px; 
-    border-radius: 50%;
-
-    transition: background-color 250ms var(--timing-function);
-    &:hover, &:focus {  
-        background-color: rgba(255, 255, 255, 0.1);
-    }
-} 
-.social-icon {
-    fill: rgba(255, 255, 255, 0.6);
-    width: 25px;
-    height: 25px; 
-    
-}

@@ -1,12 +1,12 @@
-
-@import "./utils/utils";
 @import "./utils/variables";
+@import "./utils/utils";
 @import "./utils/placeholders";
 @import "./utils/mixins";
+@import "./components/socials";
 @import "./components/header";
-@import "./components/hero";
 @import "./components/about";
-@import "./components/experience";
 @import "./components/skills";
-@import "./components/hero";
+@import "./components/experience";
+@import "./components/footer";
+
 

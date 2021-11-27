@@ -1,0 +1,8 @@
+.about {
+    @extend %section;
+    padding-top: 0;
+}
+
+.about-wrap {
+    display: flex;
+}
