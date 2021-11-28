@@ -1,7 +1,6 @@
 .header {
     @extend %section;
-    // background-color: $primary-bg-color;
-    background-color: #003c5f;
+    background-color: $primary-accent-color;
 }
 .container {
     @extend %container;
@@ -24,13 +23,14 @@
     font-weight: 700;
     line-height: 1.17;
     margin-bottom: 30px;
+    color: $address-color;
 }
 
 .subtitle {
     font-size: 24px;
     line-height: 1.17;
     font-weight: 500;
-    color: $secondary-text-color;
+    color: $primary-white-color;
     margin-bottom: 30px;
 }
 

@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
-.header, .about {
+.header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -109,13 +109,14 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 700;
   line-height: 1.17;
   margin-bottom: 30px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subtitle {
   font-size: 24px;
   line-height: 1.17;
   font-weight: 500;
-  color: #2F303A;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
@@ -182,10 +183,6 @@ h1, h2, h3, h4, h5, h6, p {
   height: 12px;
 }
 
-.about {
-  padding-top: 0;
-}
-
 .about-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,7 +202,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 500;
-  color: #2F303A;
+  color: #003c5f;
   margin-bottom: 30px;
 }
 
@@ -218,7 +215,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: #2F303A;
+  background-color: #003c5f;
 }
 
 .skills-subtitle {
@@ -294,7 +291,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .profile-description {
-  padding: 10px 20px;
+  padding: 10px 40px;
   font-size: 16px;
   line-height: 1.17;
   color: #2F303A;
@@ -310,11 +307,12 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 20px;
 }
 
-.education-subtitle {
+.education-subtitle, .experience-subtitle {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.17;
+  color: #003c5f;
 }
 
 .education-wrap, .experience-wrap {
@@ -328,7 +326,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin-right: 10px;
 }
 
-.education-period, .education-description {
+.education-period,
+.education-description,
+.experience-description,
+.experience-period {
   font-size: 16px;
   line-height: 1.17;
   color: #757575;
@@ -354,9 +355,22 @@ h1, h2, h3, h4, h5, h6, p {
 .experience-company {
   margin-bottom: 10px;
   padding-left: 20px;
+  font-weight: 500;
 }
 
 .experience-description {
   padding-left: 20px;
+}
+
+.footer {
+  border-top: 1px solid #ECECEC;
+}
+
+.copyright {
+  text-align: center;
+  color: #ECECEC;
+  font-size: 14px;
+  line-height: 1.12;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=main.css.map */

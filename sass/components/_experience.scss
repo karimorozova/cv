@@ -23,7 +23,7 @@
 }
 
 .profile-description {
-    padding: 10px 20px;
+    padding: 10px 40px;
     font-size: 16px;
     line-height: 1.17;
     color: $secondary-text-color;
@@ -41,11 +41,12 @@ margin-bottom: 50px;
     margin-bottom: 20px;
 }
 
-.education-subtitle {
+.education-subtitle, .experience-subtitle {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.17;
+    color: $primary-accent-color;
 }
 
 .education-wrap, .experience-wrap {
@@ -58,7 +59,10 @@ margin-bottom: 50px;
     margin-right: 10px;
 }
 
-.education-period, .education-description {
+.education-period, 
+.education-description, 
+.experience-description,
+.experience-period {
     font-size: 16px;
     line-height: 1.17;
     color: $primary-bg-color;
@@ -87,6 +91,7 @@ margin-bottom: 50px;
 .experience-company {
     margin-bottom: 10px;
     padding-left: 20px;
+    font-weight: 500;
 }
 .experience-description {
     padding-left: 20px;

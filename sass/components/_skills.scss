@@ -1,3 +1,7 @@
+.about-wrap {
+    display: flex;
+}
+
 .skills {
     padding: 60px 40px;
     width: 300px;
@@ -16,7 +20,7 @@
     font-size: 36px;
     line-height: 1.17;
     font-weight: 500;
-    color: $secondary-text-color;
+    color: $primary-accent-color;
     margin-bottom: 30px;
 
     &::after {
@@ -28,7 +32,7 @@
         width: 100%;
         height: 4px;
         border-radius: 2px;
-        background-color: $secondary-text-color;
+        background-color: $primary-accent-color;
     }
 
 }
