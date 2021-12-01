@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6, p {
   height: auto;
 }
 
-.social-list, .address-list, .skills-list, .education-list, .experience-list {
+.social-list, .address-list, .skills-list, .education-list, .experience-list, .experience-sublist {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -247,7 +247,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .skills-item {
-  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.17;
 }
@@ -353,13 +352,51 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .experience-company {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   padding-left: 20px;
   font-weight: 500;
 }
 
-.experience-description {
-  padding-left: 20px;
+.experience-sublist {
+  padding-left: 60px;
+  list-style: square;
+}
+
+.experience-subitem {
+  font-size: 15px;
+  line-height: 1.12;
+}
+
+.experience-subitem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.skills-level-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skills-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: disc;
+  padding: 0;
+  margin: 0;
+  color: #003c5f;
+}
+
+.skills-name-title {
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.skills-level-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .footer {

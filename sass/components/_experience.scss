@@ -89,10 +89,48 @@ margin-bottom: 50px;
 }
 
 .experience-company {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding-left: 20px;
     font-weight: 500;
 }
-.experience-description {
-    padding-left: 20px;
+
+.experience-sublist {
+    @extend %list;
+    padding-left: 60px;
+    list-style: square;
+}
+
+.experience-subitem {
+    font-size: 15px;
+    line-height: 1.12;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    // color: $primary-bg-color;
+
+}
+// .experience-description {
+//     padding-left: 20px;
+// }
+.skills-level-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.skills-level {
+    display: flex;
+    // justify-content: end;
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+    color: $primary-accent-color;
+}
+
+.skills-name-title {
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.skills-level-item:not(:last-child) {
+    margin-right: 8px;
 }
