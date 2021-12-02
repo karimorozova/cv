@@ -4,7 +4,6 @@
 
 .skills {
     padding: 60px 40px;
-    width: 300px;
     background-color: $secondary-bg-color;
     
 }
@@ -63,7 +62,6 @@
 }
 
 .skills-item {
-    // margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.17;
     &:not(:last-child) {
@@ -76,3 +74,33 @@
 }
 
  
+
+.skills-level-wrap {
+    display: flex;
+}
+.skills-level {
+    display: flex;
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+    color: $primary-accent-color;
+  
+}
+
+.skills-name-title {
+    width: 300px;
+    font-size: 16px;
+    line-height: 1.17;
+}
+.responsive-level-item,
+ .js-level-item {
+
+    &:last-child {
+        color: $primary-bg-color;
+    }
+}
+
+ .level:not(:last-child) {
+    margin-right: 8px;
+    
+    }

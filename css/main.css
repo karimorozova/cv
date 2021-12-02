@@ -191,7 +191,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .skills {
   padding: 60px 40px;
-  width: 300px;
   background-color: #AFB1B8;
 }
 
@@ -259,6 +258,37 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 0;
 }
 
+.skills-level-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skills-level {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: disc;
+  padding: 0;
+  margin: 0;
+  color: #003c5f;
+}
+
+.skills-name-title {
+  width: 300px;
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.responsive-level-item:last-child,
+.js-level-item:last-child {
+  color: #757575;
+}
+
+.level:not(:last-child) {
+  margin-right: 8px;
+}
+
 .experience {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -299,7 +329,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .education-list {
   padding-left: 20px;
-  margin-bottom: 50px;
 }
 
 .education-item:not(:last-child) {
@@ -334,10 +363,18 @@ h1, h2, h3, h4, h5, h6, p {
   color: #757575;
 }
 
+.education-period {
+  width: 90px;
+}
+
 .goit {
   display: inline-block;
   margin-right: 8px;
   color: #ff6b08;
+}
+
+.experience-list {
+  margin-bottom: 50px;
 }
 
 .experience-item:not(:last-child) {
@@ -369,34 +406,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .experience-subitem:not(:last-child) {
   margin-bottom: 10px;
-}
-
-.skills-level-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.skills-level {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: disc;
-  padding: 0;
-  margin: 0;
-  color: #003c5f;
-}
-
-.skills-name-title {
-  font-size: 16px;
-  line-height: 1.17;
-}
-
-.skills-level-item:not(:last-child) {
-  margin-right: 8px;
 }
 
 .footer {

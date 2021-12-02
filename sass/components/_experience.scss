@@ -34,7 +34,6 @@
 .education-list {
     @extend %list;
     padding-left: 20px;
-margin-bottom: 50px;
 }
 
 .education-item:not(:last-child) {
@@ -67,7 +66,9 @@ margin-bottom: 50px;
     line-height: 1.17;
     color: $primary-bg-color;
 }
-
+.education-period {
+    width: 90px;
+}
 .goit {
     display: inline-block;
     margin-right: 8px;
@@ -77,6 +78,8 @@ margin-bottom: 50px;
 
 .experience-list {
     @extend %list;
+
+margin-bottom: 50px;
 }
 
 .experience-item:not(:last-child) {
@@ -107,30 +110,5 @@ margin-bottom: 50px;
     &:not(:last-child) {
         margin-bottom: 10px;
     }
-    // color: $primary-bg-color;
 
-}
-// .experience-description {
-//     padding-left: 20px;
-// }
-.skills-level-wrap {
-    display: flex;
-    justify-content: space-between;
-}
-.skills-level {
-    display: flex;
-    // justify-content: end;
-    list-style: disc;
-    padding: 0;
-    margin: 0;
-    color: $primary-accent-color;
-}
-
-.skills-name-title {
-    font-size: 16px;
-    line-height: 1.17;
-}
-
-.skills-level-item:not(:last-child) {
-    margin-right: 8px;
 }
