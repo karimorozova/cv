@@ -65,7 +65,7 @@
     font-size: 16px;
     line-height: 1.17;
     &:not(:last-child) {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 }
 
@@ -78,29 +78,34 @@
 .skills-level-wrap {
     display: flex;
 }
-.skills-level {
-    display: flex;
-    list-style: disc;
-    padding: 0;
-    margin: 0;
-    color: $primary-accent-color;
-  
-}
 
 .skills-name-title {
-    width: 300px;
+    width: 250px;
     font-size: 16px;
     line-height: 1.17;
 }
+
+.skills-span-list {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+
+.level {
+    border-radius: 50%;
+    background-color: $primary-accent-color;
+    width: 5px;
+    height: 5px;
+    &:not(:last-child) {
+        margin-right: 5px;
+    }
+}
+
 .responsive-level-item,
  .js-level-item {
 
     &:last-child {
-        color: $primary-bg-color;
+        background-color: $primary-bg-color;
     }
 }
-
- .level:not(:last-child) {
-    margin-right: 8px;
-    
-    }

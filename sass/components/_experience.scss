@@ -66,9 +66,7 @@
     line-height: 1.17;
     color: $primary-bg-color;
 }
-.education-period {
-    width: 90px;
-}
+
 .goit {
     display: inline-block;
     margin-right: 8px;
@@ -79,12 +77,16 @@
 .experience-list {
     @extend %list;
 
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .experience-item:not(:last-child) {
     margin-bottom: 50px;
 
+}
+.experience-subtitle, .experience-period {
+    margin-bottom: 10px;
+    padding-left: 20px;
 }
 .experience-wrap {
     justify-content: space-between;
