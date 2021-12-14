@@ -1,6 +1,8 @@
 .header {
     @extend %section;
     background-color: $primary-accent-color;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .container {
     @extend %container;
@@ -79,12 +81,4 @@
         fill: $primary-white-color;
     }
 }
-// .email-icon {
-//     width: 16px;
-//     height: 12px;
-// }
-// .address-icon {
-//     width: 16px;
-//     height: 12px;
-// }
 
