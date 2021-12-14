@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
-.header {
+.header, .footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -77,8 +77,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header {
   background-color: #003c5f;
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 .header-wrap {
